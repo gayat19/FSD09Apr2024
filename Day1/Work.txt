@@ -17,3 +17,5 @@ Itrate
 	Commit them localy  - git commit -m "<your commit meeage>"
 	Push to GitHub - git push origin master
 Next
+
+Creating a conflict
