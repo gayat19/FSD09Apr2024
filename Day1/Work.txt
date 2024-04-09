@@ -34,3 +34,8 @@ Same file
   Commit
   Push
 
+-------------------------------------------------------------------
+Branch
+   git branch
+   git branch <branchname>
+   git checkout <branchname>
