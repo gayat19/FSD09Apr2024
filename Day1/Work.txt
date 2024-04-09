@@ -14,8 +14,23 @@ Check the staged files - git status
 
 Itrate
 	Stage the files  git add <filename> (or) git add -A
-	Commit them localy  - git commit -m "<your commit meeage>"
+	Commit them localy - git commit -m "<Your commit message>"
 	Push to GitHub - git push origin master
 Next
 
-Creating a conflict
+
+Conflicts
+    Same file
+    Different files
+
+Different files
+   Pull
+   Push
+
+Same file
+  Pull 
+  Resolve
+  Stage
+  Commit
+  Push
+
