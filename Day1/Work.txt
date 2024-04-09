@@ -5,3 +5,15 @@ Git Download
 https://git-scm.com/downloads
 
 Git Steps
+Create a local Repository - git init
+
+Connect to the GitHub Repo - git remote add origin <You repo link>
+	Check the remote link - git remote -v
+
+Check the staged files - git status
+
+Itrate
+	Stage the files  git add <filename> (or) git add -A
+	Commit them localy  - git commit -m "<your commit meeage>"
+	Push to GitHub - git push origin master
+Next
