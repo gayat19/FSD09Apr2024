@@ -29,3 +29,253 @@ Ref: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-
 
 Operators
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
+
+
+namespace FirstApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine("This is the output statement");
+            int num1=100,num2 = 200;
+            
+            Console.WriteLine(num1);
+            Console.WriteLine("Teh value of num1 is "+num1);//concatination
+            Console.WriteLine($"The value of num1 is {num1}");//interpollation
+            Console.WriteLine($"The sum of {num1} and {num2} is {num1+num2}");    
+             Console.WriteLine("The sum of ${num1} and ${num2} is ${num1+num2}");    
+
+
+        }
+    }
+ 
+}
+------------------------------------------------------------
+namespace FirstApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1, num2;
+            string name;
+            Console.WriteLine("Please enter your name");
+            name = Console.ReadLine();
+            Console.WriteLine("Welcome "+name);
+            Console.WriteLine("Please enter the first number");
+            num1 = int.Parse(Console.ReadLine());
+            num1++;
+            Console.WriteLine($"the incremented value is {num1}");
+
+        }
+    }
+ 
+}
+
+
+namespace FirstApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1, num2;
+            string name =null;
+            //Console.WriteLine("Please enter your name");
+            //name = Console.ReadLine();
+            //Console.WriteLine("Welcome "+name);
+            //Console.WriteLine("Please enter the first number");
+            //num1 = int.Parse(Console.ReadLine());
+            //num1 = int.Parse(name);
+            num1 = Convert.ToInt32(name);
+            num1++;
+            Console.WriteLine($"the incremented value is {num1}");
+        }
+    }
+ 
+}
+namespace FirstApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            float fNum1;
+            int iNum2;
+            Console.WriteLine("Please enter a number");
+            fNum1 = Convert.ToSingle(Console.ReadLine());
+            iNum2 = (int)fNum1;//explicit casting
+            Console.WriteLine($"The numbe is {fNum1}");
+        }
+    }
+ 
+}
+namespace FirstApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            float fNum1;
+            int iNum2 = 90;
+            string num3 = iNum2.ToString();//boxing
+            Console.WriteLine("Please enter a number");
+            fNum1 = Convert.ToSingle(Console.ReadLine());//Unboxing	
+            iNum2 = (int)fNum1;//explicit casting
+            fNum1 = iNum2 - 10;//implicit casting
+            Console.WriteLine($"The numbe is {fNum1}");
+        }
+    }
+ 
+}
+namespace FirstApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = int.MaxValue;
+            num1++;
+            Console.WriteLine(int.MaxValue);
+            Console.WriteLine(num1);
+
+        }
+    }
+ 
+}
+
+namespace FirstApp
+{
+    internal class Program
+    {
+        static int Add(int num1,int num2)
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            return sum;
+        }
+        static int TakeNumber()
+        {
+            int num1;
+            Console.WriteLine("Please enter the the number");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            return num1;
+        }
+        static void Calculate()
+        {
+            int num1, num2;
+            num1 = TakeNumber();
+            num2 = TakeNumber();
+            int sum = Add(num1,num2);
+            PrintResult(sum,"Sum");
+        }
+
+        private static void PrintResult(int sum, string ops)
+        {
+            Console.WriteLine($"The {ops} is {sum}");
+        }
+
+        static void Main(string[] args)
+        {
+           Calculate();
+        }
+    }
+ 
+}
+static int TakeNumber()
+{
+    int num1;
+    Console.WriteLine("Please enter the the number");
+    string data = Console.ReadLine();
+    num1 = int.Parse(data==null?"0":data);
+    return num1;
+}
+(or)
+ static int TakeNumber()
+ {
+     int num1;
+     Console.WriteLine("Please enter the the number");
+     num1 = int.Parse(Console.ReadLine()??"0");
+     return num1;
+ }
+ 
+             int? num2 = null;
+            num2 = num2 ?? 0;
+            Console.WriteLine(num2);
+ static bool ConvertName(string name, out string msg )
+ {
+     msg = "";
+     if(name is null) 
+         return false;
+     msg = "Welcome " + name + " !!!";
+     return true;
+ }
+
+ static void Main(string[] args)
+ {
+     
+     
+     bool result = ConvertName("Ramu", out message);
+     if(result==true) 
+         Console.WriteLine(message);
+     else
+         Console.WriteLine("Invalid name");
+     //Calculate();
+ }
+ 
+ 
+ using System.Net.Http.Headers;
+
+using System.Net.Http.Headers;
+
+namespace FirstApp
+{
+    internal class Program
+    {
+        static int Add(int num1,int num2)
+        {
+            checked
+            {
+                int result = num1 + num2;
+                return result;
+            }
+        }
+        static int TakeNumber()
+        {
+            int num1;
+            Console.WriteLine("Please enter the the number");
+            while(int.TryParse(Console.ReadLine(),out num1) == false)
+                Console.WriteLine("Invalid entry. Please enter a number");
+            return num1;
+        }
+        static void Calculate()
+        {
+            int num1, num2;
+            num1 = TakeNumber();
+            num2 = TakeNumber();
+            int sum = Add(num1,num2);
+            PrintResult(sum,"Sum");
+        }
+
+        static void PrintResult(int sum, string ops)
+        {
+            Console.WriteLine($"The {ops} is {sum}");
+        }
+        static bool ConvertName(string name, out string msg )
+        {
+            msg = "";
+            if(name is null) 
+                return false;
+            msg = "Welcome " + name + " !!!";
+            return true;
+        }
+
+        static void Main(string[] args)
+        {
+            Calculate();
+        }
+    }
+ 
+}
