@@ -1,0 +1,7 @@
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\FirstFrameworkApp\FirstFrameworkApp\bin\Debug\FirstFrameworkApp.exe.config
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\FirstFrameworkApp\FirstFrameworkApp\bin\Debug\FirstFrameworkApp.exe
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\FirstFrameworkApp\FirstFrameworkApp\bin\Debug\FirstFrameworkApp.pdb
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\FirstFrameworkApp\FirstFrameworkApp\obj\Debug\FirstFrameworkApp.csproj.AssemblyReference.cache
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\FirstFrameworkApp\FirstFrameworkApp\obj\Debug\FirstFrameworkApp.csproj.CoreCompileInputs.cache
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\FirstFrameworkApp\FirstFrameworkApp\obj\Debug\FirstFrameworkApp.exe
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\FirstFrameworkApp\FirstFrameworkApp\obj\Debug\FirstFrameworkApp.pdb

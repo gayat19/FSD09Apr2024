@@ -1,0 +1,15 @@
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\bin\Debug\net8.0\EmployeeRequestTracker.exe
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\bin\Debug\net8.0\EmployeeRequestTracker.deps.json
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\bin\Debug\net8.0\EmployeeRequestTracker.runtimeconfig.json
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\bin\Debug\net8.0\EmployeeRequestTracker.dll
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\bin\Debug\net8.0\EmployeeRequestTracker.pdb
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.AssemblyInfoInputs.cache
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.AssemblyInfo.cs
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.csproj.CoreCompileInputs.cache
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.sourcelink.json
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.dll
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\refint\EmployeeRequestTracker.dll
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.pdb
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\EmployeeRequestTracker.genruntimeconfig.cache
+C:\Users\gayat\OneDrive\Desktop\New folder\FSD09Apr2024\Day3\EmployeeRequestTracker\obj\Debug\net8.0\ref\EmployeeRequestTracker.dll

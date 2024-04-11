@@ -7,3 +7,25 @@ Datatypes
 Stuctrure
 
 Coding standards
+
+
+Boxing /UnBoxing
+
+Modular programming
+
+Nullable value types
+
+Datatypes
+
+Convertions
+
+Out Parameter
+
+Error Handling
+
+
+datatypes in C#
+Ref: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types
+
+Operators
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/

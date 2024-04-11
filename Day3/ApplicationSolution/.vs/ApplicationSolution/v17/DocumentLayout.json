@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE71115-28FA-4DD7-904B-83F23D02401F}|FirstApp\\FirstApp.csproj|c:\\users\\gayat\\onedrive\\desktop\\new folder\\fsd09apr2024\\day3\\applicationsolution\\firstapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE71115-28FA-4DD7-904B-83F23D02401F}|FirstApp\\FirstApp.csproj|solutionrelative:firstapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE71115-28FA-4DD7-904B-83F23D02401F}|FirstApp\\FirstApp.csproj|c:\\users\\gayat\\onedrive\\desktop\\new folder\\fsd09apr2024\\day3\\applicationsolution\\firstapp\\firstapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DEE71115-28FA-4DD7-904B-83F23D02401F}|FirstApp\\FirstApp.csproj|solutionrelative:firstapp\\firstapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE71115-28FA-4DD7-904B-83F23D02401F}|FirstApp\\FirstApp.csproj|c:\\users\\gayat\\onedrive\\desktop\\new folder\\fsd09apr2024\\day3\\applicationsolution\\firstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE71115-28FA-4DD7-904B-83F23D02401F}|FirstApp\\FirstApp.csproj|solutionrelative:firstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstApp",
+              "DocumentMoniker": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\FirstApp\\FirstApp.csproj",
+              "RelativeDocumentMoniker": "FirstApp\\FirstApp.csproj",
+              "ToolTip": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\FirstApp\\FirstApp.csproj",
+              "RelativeToolTip": "FirstApp\\FirstApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-11T09:23:31.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\FirstApp\\Employee.cs",
+              "RelativeDocumentMoniker": "FirstApp\\Employee.cs",
+              "ToolTip": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\FirstApp\\Employee.cs",
+              "RelativeToolTip": "FirstApp\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T09:22:55.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\FirstApp\\Program.cs",
+              "RelativeDocumentMoniker": "FirstApp\\Program.cs",
+              "ToolTip": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\FirstApp\\Program.cs",
+              "RelativeToolTip": "FirstApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:38:26.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

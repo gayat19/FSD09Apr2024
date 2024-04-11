@@ -1,4 +1,4 @@
-1) Create a application that take 2 numbers and find its sum, product and divide the first by second, also supractthe second from teh first. 
+1) Create a application that take 2 numbers and find its sum, product and divide the first by second, also supract the second from the first. 
 Include another method to find the remainder when the first number is divided by second
 
 2)  create an application that will find the greatest of the given numbers. Take input until the user enters a negative number
@@ -12,10 +12,11 @@ Print error message if username or password is wrong
 Allow user 3 attemts.
 After 3rd attempt if user enters invalid credentials then print msg to intimate user taht he/she has exceeded the number of attempts and stop
 
-6) Create a class Doctor(Id, Name, Experience), Has behaviour to take the doctor details from user and another to print the doctor's details.
-
 7) Take a string from user the words seperated by comma(","). Seperate the words and find the words with the least number of repeating vowels. print the count and the word. If there is a tie then print all the words that tie for the least
 
 8) Learn datatypes in C#
 Ref: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types
+
+9) Operators
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
 

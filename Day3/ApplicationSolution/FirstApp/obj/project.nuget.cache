@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qt9K6OJ9J8WDhG8RkBFnTScyCHUvWfymzBY3i1JLrtSjBn2sP5JIrEAPbVdIB4LirbhHyY2ciMKHrIyNw07BJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day3\\ApplicationSolution\\FirstApp\\FirstApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\sonaranalyzer.csharp\\9.23.1.88495\\sonaranalyzer.csharp.9.23.1.88495.nupkg.sha512"
+  ],
+  "logs": []
+}
