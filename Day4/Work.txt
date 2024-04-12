@@ -1,0 +1,11 @@
+public - can access every where
+private - Only inside class
+protected - Inherited classes can access
+internal - Inside the same assembly
+
+protected internal
+private protected
+
+
+PE - Protable Executable
+     Assembly

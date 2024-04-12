@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\bin\Debug\net6.0\UnderstandingBasicsApp.exe
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\bin\Debug\net6.0\UnderstandingBasicsApp.deps.json
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\bin\Debug\net6.0\UnderstandingBasicsApp.runtimeconfig.json
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\bin\Debug\net6.0\UnderstandingBasicsApp.dll
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\bin\Debug\net6.0\UnderstandingBasicsApp.pdb
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.sourcelink.json
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.dll
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\refint\UnderstandingBasicsApp.dll
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.pdb
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\UnderstandingBasicsApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\GenSpark\Presidio\Participants\Day4\FirstFullSolution\UnderstandingBasicsApp\obj\Debug\net6.0\ref\UnderstandingBasicsApp.dll
