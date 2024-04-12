@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZbJRGNR8EVv4jOKYK+cmHIxhhyxA7ePdgujTH/EAz/wWJES8jB370f4PWsdRix6X0uuKsF6BP02mTvvBZVrPeg==",
+  "dgSpecHash": "1lcGfv5O2CTQ2nbZkwKi7rLJVgZM0RigSERnka0+xr+7SXOMrWIAh94OkDBZ/Wm2XyzpdOkur/fVOj33Yz460Q==",
   "success": true,
-  "projectFilePath": "D:\\Data\\d drive\\Corp\\GenSpark\\Presidio\\Participants\\Day4\\FirstFullSolution\\UnderstandingBasicsApp\\UnderstandingBasicsApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gayat\\OneDrive\\Desktop\\New folder\\FSD09Apr2024\\Day4\\FirstFullSolution\\UnderstandingBasicsApp\\UnderstandingBasicsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
