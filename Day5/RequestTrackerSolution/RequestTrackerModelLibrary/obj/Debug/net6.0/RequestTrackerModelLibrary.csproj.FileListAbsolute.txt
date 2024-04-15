@@ -1,0 +1,12 @@
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.deps.json
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.AssemblyInfoInputs.cache
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.AssemblyInfo.cs
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.csproj.CoreCompileInputs.cache
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.sourcelink.json
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\refint\RequestTrackerModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day5\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\ref\RequestTrackerModelLibrary.dll

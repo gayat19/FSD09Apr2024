@@ -1,0 +1,26 @@
+Create an application that will allow the user to play cow an bull(only for 4 char word)
+Same char same position - cow
+Same char diff position - bull
+Example - If the word is - golf
+Start the guess
+heap
+cows - 0, bulls - 0
+kite
+cows - 0, bulls -0
+girl
+cows - 1, bulls -1
+like
+cows -0, bulls 1
+milk
+cows -1, bull -0
+goat
+cows -2, bulls - 0
+gold
+cows -3, bulls-0
+golf
+cows -4, bulls -0
+Congrats!!! you won!!!!!
+has context menu
+
+
+https://leetcode.com/problems/bulls-and-cows/description/
