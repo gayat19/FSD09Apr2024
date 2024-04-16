@@ -70,12 +70,23 @@ namespace RequestTrackerApplication
             for(int i = 0;i < employees.Length;i++)
             {
                 if (employees[i] != null)
+                {
+                    Company company = new Company();
+                    company.EmployeeClientVisit(employees[i]);
                     PrintEmployee(employees[i]);
+                }
+                    
             }
         }
         Employee CreateEmployee(int id)
         {
             Employee employee = new Employee();
+            Console.WriteLine("Please enter the type of employee");
+            string type = Console.ReadLine();
+            if (type == "Permanent")
+                employee = new PermanentEmployee();
+            else if (type == "Contract")
+                employee = new ContractEmployee();
             employee.Id = 101+ id;
             employee.BuildEmployeeFromConsole();
             return employee;
@@ -84,7 +95,7 @@ namespace RequestTrackerApplication
         void PrintEmployee(Employee employee)
         {
             Console.WriteLine("---------------------------");
-            employee.PrintEmployeeDetails();
+            Console.WriteLine(employee);
             Console.WriteLine("---------------------------");
         }
         int GetIdFromConsole()
@@ -126,8 +137,11 @@ namespace RequestTrackerApplication
 
         static void Main(string[] args)
         {
-           Program program = new Program();
-            program.EmployeeInteraction();
+            //Program program = new Program();
+            //program.EmployeeInteraction();
+            ContractEmployee employee = new ContractEmployee();
+            employee.BuildEmployeeFromConsole();
+            Console.WriteLine(employee);
         }
     }
 }

@@ -1,0 +1,12 @@
+OOPS
+
+Class
+Object
+Encapsulation
+Inheritance
+  Single
+  Multi-Level
+  Hirarchial
+Polymorphism
+  Overriding- runtime polymorphism
+Interfaces
