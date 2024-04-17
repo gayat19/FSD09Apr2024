@@ -18,7 +18,7 @@ if >10 years service , 2*basic salary=gratuity amount
 if >20 years service , 3* basic salary=gratuity amount
 if < 5 no gratuity.
 
-If class is Accenture ,
+If class is XYZ ,
 12% of basic salary of employee should go for PF and 12% of employer contribution should go to PFfrom employer contribution.
 Leave Details for Accenture is 
 2 day of Casual Leave per month

@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "RequestTrackerDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RequestTrakerModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RequestTrackerDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RequestTrackerDALLibrary.dll": {}
+        }
+      },
+      "RequestTrakerModelLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RequestTrakerModelLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RequestTrakerModelLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RequestTrackerDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../RequestTrackerDALLibrary/RequestTrackerDALLibrary.csproj",
+      "msbuildProject": "../RequestTrackerDALLibrary/RequestTrackerDALLibrary.csproj"
+    },
+    "RequestTrakerModelLibrary/1.0.0": {
+      "type": "project",
+      "path": "../RequestTrakerModelLibrary/RequestTrakerModelLibrary.csproj",
+      "msbuildProject": "../RequestTrakerModelLibrary/RequestTrakerModelLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "RequestTrackerDALLibrary >= 1.0.0",
+      "RequestTrakerModelLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gayat\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj",
+      "projectName": "RequestTrackerBLLibrary",
+      "projectPath": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj",
+      "packagesPath": "C:\\Users\\gayat\\.nuget\\packages\\",
+      "outputPath": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\gayat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj": {
+              "projectPath": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj"
+            },
+            "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj": {
+              "projectPath": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

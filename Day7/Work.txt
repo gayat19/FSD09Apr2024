@@ -1,0 +1,197 @@
+Overloading
+   Static ploymorphism
+   Change the number of parameters/order of parameters/datatype of parameters
+Constructor
+Method
+Operator
+
+10+12 =22
+Indexer
+
+Abstract Class
+
+Exception Handling
+
+Collection
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.stack?view=net-8.0
+
+
+-------------------------------------------------------------
+	namespace RequestTrakerModelLibrary
+{
+    public class Employee 
+    {
+        public Department EmployeeDepartment { get; set; }
+        int age;
+        DateTime dob;
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+        }
+        public DateTime DateOfBirth
+        {
+            get => dob;
+            set
+            {
+                dob = value;
+                age = ((DateTime.Today - dob).Days) / 365;
+            }
+        }
+        public double Salary { get; set; }
+        public string Type { get; set; }
+        public string Role { get; set; }
+
+        public Employee()
+        {
+            Id = 0;
+            Name = string.Empty;
+            Salary = 0.0;
+            DateOfBirth = new DateTime();
+            Type = string.Empty;
+            Role = "Employee";
+        }
+        public Employee(int id, string name, DateTime dateOfBirth,string role)
+        {
+            Id = id;
+            Name = name;
+            DateOfBirth = dateOfBirth;
+            Role = role;
+        }
+
+        public virtual void BuildEmployeeFromConsole()
+        {
+            Console.WriteLine("Please enter the Name");
+            Name = Console.ReadLine() ?? String.Empty;
+            Console.WriteLine("Please enter the Date of birth");
+            DateOfBirth = Convert.ToDateTime(Console.ReadLine());
+            Role = "Employee";
+        }
+
+
+        public override string ToString()
+        {
+            return "Employee Type : " + Type
+                + "\nEmployee Id : " + Id
+                + "\nEmployee Name " + Name
+                + "\nDate of birth : " + DateOfBirth
+                + "\nEmployee Age : " + Age
+                +"\nEmployee Role "+Role;
+        }
+        public override bool Equals(object? obj)
+        {
+            Employee e1, e2;
+            e1 = this;
+            //e2 = (Employee)obj;//Casting
+            e2 = obj as Employee;//Casting in a more symanctic way
+            return e1.Id.Equals(e2.Id);
+        }
+        public static bool operator==(Employee a, Employee b)
+        {
+            return a.Id==b.Id;
+
+        }
+        public static bool operator !=(Employee a, Employee b)
+        {
+            return a.Id != b.Id;
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RequestTrakerModelLibrary
+{
+    public class Department
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Department_Head { get; set; }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RequestTrakerModelLibrary
+{
+    public class Request : IEquatable<Request>
+    {
+        public int Id { get; set; }
+        public string RequestText { get; set; }
+        public int Raised_By { get; set; }
+        public string Status { get; set; }
+        public int Closed_By { get; set; }
+        public DateTime RaisedDate { get; set; }
+        public DateTime ClosedDate { get; set; }
+
+        //public bool Equals(Request? other)
+        //{
+        //    return Id.Equals(other.Id);
+        //}
+        public bool Equals(Request? other) => Id.Equals(other.Id);
+    }
+}
+
+
+using RequestTrakerModelLibrary;
+
+namespace RequestTrackerApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee employee1, employee2;
+            
+            employee1 = new Employee(101,"Ramu",new DateTime(2000,12,2),"Admin");
+            employee2 = new Employee(101, "Ramu", new DateTime(2000, 12, 2), "Admin");
+            if(employee1==employee2)
+            {
+                Console.WriteLine("Both Same");
+            }
+            else
+            {
+                Console.WriteLine($"{employee1} and {employee2} are Not same employee");
+            }
+                
+        }
+    }
+}
+--------------------------------------
+
+using RequestTrakerModelLibrary;
+
+namespace RequestTrackerApp
+{
+    internal class Program
+    {
+        void UnderstaingTroubleInArray()
+        {
+            int[] numbers = new int[3] { 1, 2, 3 };
+            int[] newNumbers = new int[4];
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                newNumbers[i] = numbers[i];
+            }
+            numbers = newNumbers;
+            numbers[3] = 100;
+
+            Console.WriteLine(numbers[3]);
+        }
+        static void Main(string[] args)
+        {
+           new Program().UnderstaingTroubleInArray();
+                
+        }
+    }
+}
