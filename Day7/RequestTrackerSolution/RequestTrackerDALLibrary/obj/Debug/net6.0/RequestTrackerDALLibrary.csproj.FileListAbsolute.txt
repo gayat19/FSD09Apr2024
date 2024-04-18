@@ -1,0 +1,16 @@
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerDALLibrary.deps.json
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerDALLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrakerModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrakerModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.csproj.AssemblyReference.cache
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.AssemblyInfoInputs.cache
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.AssemblyInfo.cs
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.csproj.CoreCompileInputs.cache
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.sourcelink.json
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestT.889816FC.Up2Date
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\refint\RequestTrackerDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\ref\RequestTrackerDALLibrary.dll

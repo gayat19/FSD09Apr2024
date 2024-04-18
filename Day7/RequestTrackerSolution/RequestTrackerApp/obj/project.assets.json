@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "RequestTrackerBLLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RequestTrackerDALLibrary": "1.0.0",
+          "RequestTrakerModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RequestTrackerBLLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RequestTrackerBLLibrary.dll": {}
+        }
+      },
+      "RequestTrackerDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RequestTrakerModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RequestTrackerDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RequestTrackerDALLibrary.dll": {}
+        }
+      },
       "RequestTrakerModelLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +42,16 @@
     }
   },
   "libraries": {
+    "RequestTrackerBLLibrary/1.0.0": {
+      "type": "project",
+      "path": "../RequestTrackerBLLibrary/RequestTrackerBLLibrary.csproj",
+      "msbuildProject": "../RequestTrackerBLLibrary/RequestTrackerBLLibrary.csproj"
+    },
+    "RequestTrackerDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../RequestTrackerDALLibrary/RequestTrackerDALLibrary.csproj",
+      "msbuildProject": "../RequestTrackerDALLibrary/RequestTrackerDALLibrary.csproj"
+    },
     "RequestTrakerModelLibrary/1.0.0": {
       "type": "project",
       "path": "../RequestTrakerModelLibrary/RequestTrakerModelLibrary.csproj",
@@ -23,6 +60,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "RequestTrackerBLLibrary >= 1.0.0",
       "RequestTrakerModelLibrary >= 1.0.0"
     ]
   },
@@ -59,6 +97,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj": {
+              "projectPath": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj"
+            },
             "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj": {
               "projectPath": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj"
             }

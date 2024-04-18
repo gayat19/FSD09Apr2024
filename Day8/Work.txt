@@ -1,0 +1,167 @@
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/polymorphism
+
+
+Kudvenkat
+
+Link for teams issue
+https://docs.google.com/spreadsheets/d/1mSq2PnlDOYeOPbS47_gqKr3nckhRE64eFhkm--qAGsU/edit?usp=sharing
+
+
+
+https://learn.microsoft.com/en-Us/dotnet/csharp/programming-guide/indexers/
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RequestTrackerApp
+{
+    internal class Student
+    {
+        public int Id { get; set; }
+        string[] skills = new string[3];
+        public string Name { get; set; }
+        public string this[int index]
+        {
+            get { return skills[index]; }
+            set { skills[index] = value; }
+        }
+
+        public int this[string sname]
+        {
+            get {
+                for (int i = 0; i < skills.Length; i++)
+                {
+                    if (skills[i] == sname)
+                        return i;
+                }
+                return -1;
+            }
+        }
+
+        public override string ToString()
+        {
+            string data = Id+" "+Name + " ";
+            for (int i = 0;i<skills.Length;i++)
+                data += skills[i]+" ";
+            return data;
+        }
+    }
+}
+
+
+using RequestTrakerModelLibrary;
+using System.Collections;
+using System.Globalization;
+
+namespace RequestTrackerApp
+{
+    internal class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            Student[] students = new Student[3];
+            students[0] = new Student() { Name = "Ramu", Id = 101 };
+            students[0][0] = "C";
+            students[0][1] = "Java";
+            students[0][2] = "C#";
+            Console.WriteLine(students[0]["Java"]);
+        }
+    }
+}
+
+
+
+using RequestTrakerModelLibrary;
+using System.Collections;
+using System.Globalization;
+
+namespace RequestTrackerApp
+{
+    internal class Program
+    {
+        void UnderstandingJaggedArray()
+        {
+            string[][] posts = new string[4][];
+            for (int i = 0; i < posts.Length; i++)
+            {
+                Console.WriteLine("Please enter the number of columns");
+                int count = Convert.ToInt32(Console.ReadLine());
+                posts[i]= new string[count];
+                for (int j = 0; j < count; j++)
+                {
+                    Console.WriteLine($"Please enter the post {i+1} value");
+                    posts[i][j] = Console.ReadLine();
+                }
+            }
+            Console.WriteLine("Posts");
+            for (int i = 0;i < posts.Length; i++)
+            {
+                for (int j = 0;j < posts[i].Length; j++)
+                    Console.Write(posts[i][j]+" ");
+                Console.WriteLine();
+                Console.WriteLine("---------------------");
+            }
+        }
+        static void Main(string[] args)
+        {
+            new Program().UnderstandingJaggedArray();
+        }
+    }
+}
+
+using RequestTrakerModelLibrary;
+using System.Collections;
+using System.Globalization;
+
+namespace RequestTrackerApp
+{
+    internal class Program
+    {
+        int Divide(int num1, int num2)
+        {
+            try
+            {
+                int result = num1 / num2;
+                return result;
+            }
+            catch (DivideByZeroException dbze)
+            {
+                Console.WriteLine("You are trying to divide by zero. Its not worth");
+            }
+            finally
+            {
+                Console.WriteLine("Release the divide method resource");
+            }
+            Console.WriteLine("Your division did not go well");
+            return 0;
+            
+        }
+       
+        static void Main(string[] args)
+        {
+            int num1, num2, result;
+            try
+            {
+                num1 = Convert.ToInt32(Console.ReadLine());
+                num2 = Convert.ToInt32(Console.ReadLine());
+                result = new Program().Divide(num1, num2);
+                Console.WriteLine(result);
+            }
+            catch (FormatException fe)
+            {
+                Console.WriteLine(fe.Message);
+                Console.WriteLine("The given data could not be converted to number.");
+            }
+            Console.WriteLine("Bye bye");
+        }
+    }
+}
+
