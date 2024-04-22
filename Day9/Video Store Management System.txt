@@ -1,0 +1,44 @@
+Video Store Management System
+
+Objective:
+Develop a console-based video store management system to facilitate the rental and return of videos to customers.
+
+#### Functional Requirements:
+
+1. **Video Catalog:**
+   - Maintain a catalog of available videos, including details such as title, genre, availability status, and rental price.
+
+2. **Customer Management:**
+   - Allow customers to register by providing unique IDs, names, contact information, etc.
+
+3. **Rental Process:**
+   - Customers should be able to browse the catalog and rent available videos.
+   - Each rental transaction should record the customer ID, video ID, rental date, and due date.
+   - The availability status of rented videos should be updated accordingly.
+
+4. **Return Process:**
+   - Customers should be able to return rented videos.
+   - Upon return, update the availability status of the video and calculate any applicable late fees.
+
+
+Non-Functional Requirements:
+
+1. **User Interface:**
+   - Design a user-friendly console interface with clear menus and prompts for easy navigation.
+
+2. **Efficiency:**
+   - The system should handle rental transactions and inventory updates efficiently, even with a large number of videos and customers.
+
+3. **Security:**
+   - Implement access controls to ensure that only authorized staff can perform administrative tasks such as adding or removing videos from the catalog.
+
+4. **Scalability:**
+   - Design the system to accommodate the addition of new videos and customers without significant changes to the underlying architecture.
+
+#### Optional Enhancements (Not required but could be added for further functionality):
+
+1. **Membership Management:**
+   - Implement a membership system with different tiers offering benefits such as discounts or priority access to new releases.
+
+2. **Feedback Collection:**
+   - Collect feedback from customers about their rental experience to improve service quality.

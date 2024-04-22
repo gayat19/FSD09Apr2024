@@ -1,0 +1,45 @@
+Hotel Booking System
+
+Objective:
+Develop a console-based hotel booking system to enable guests to book rooms, manage reservations, and access hotel services easily.
+
+#### Functional Requirements:
+
+1. **Room Inventory Management:**
+   - Maintain a comprehensive inventory of available rooms, including details such as room type (e.g., single, double, suite), features (e.g., air conditioning, Wi-Fi, ocean view), occupancy capacity, and nightly rate.
+
+2. **Reservation Processing:**
+   - Enable guests to search for available rooms based on their desired check-in and check-out dates, room type, and occupancy needs.
+   - Allow guests to book rooms, providing personal details, specific preference
+   - Generate reservation confirmations that include reservation details, total cost, and cancellation policies.
+
+3. **Guest Management:**
+   - Maintain records of guests including contact details, reservation history, and preferences.
+   - Implement functionality for guests to view their reservation details, modify bookings, or cancel reservations.
+
+
+#### Non-Functional Requirements:
+
+1. **User Interface:**
+   - Design an intuitive console interface with clear navigation and prompts to ensure ease of use for both guests and hotel staff.
+
+2. **Efficiency:**
+   - Ensure that the system processes bookings and updates quickly and accurately, especially during peak booking periods.
+
+3. **Reliability:**
+   - The system should be highly reliable, maintaining continuous operation and preserving data integrity.
+
+4. **Security:**
+   - Implement strong security measures to protect guest data and financial transactions from unauthorized access.
+
+5. **Scalability:**
+   - Design the system to easily accommodate growth in hotel size, number of bookings, and expansion into new locations without significant changes to the core architecture.
+
+#### Optional Enhancements:
+
+1. **Loyalty Program Integration:**
+   - Integrate a loyalty program to reward frequent guests with discounts, upgrades, or complimentary services.
+
+2. **Feedback and Rating System:**
+   - Include a system for guests to provide feedback on their stay and rate the hotel’s services, helping future guests make informed decisions.
+

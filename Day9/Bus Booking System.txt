@@ -1,0 +1,42 @@
+Bus Booking System Case Study
+
+#### Background:
+A bus company operates a fleet of buses serving multiple routes across different cities. They want to develop a bus booking system to streamline the process of ticket reservation for passengers.
+
+#### Functional Requirements:
+
+1. **Bus Route Management:**
+   - Maintain a list of available bus routes, including details such as route ID, origin, destination, departure time, and number of available seats.
+
+2. **Ticket Booking:**
+   - Allow passengers to search for available buses based on the origin, destination, and date of travel.
+   - Enable passengers to book tickets for a selected bus, specifying the number of seats required.
+   - Each booking should record the passenger's name, contact information, selected bus, departure date, and number of seats booked.
+   - Update the availability of seats for the booked bus.
+
+3. **Ticket Cancellation:**
+   - Provide functionality for passengers to cancel their booked tickets, releasing the seats for other passengers.
+   - Refund applicable amounts to passengers upon cancellation, if any.
+
+#### Non-Functional Requirements:
+
+1. **User Interface:**
+   - Design an intuitive console interface with clear menus and prompts for easy route selection, ticket booking, and payment.
+
+2. **Efficiency:**
+   - The system should handle booking transactions and seat updates efficiently, even during peak hours of operation.
+
+3. **Security:**
+   - Implement access controls to restrict access to sensitive functionalities such as ticket cancellations and financial transactions.
+
+4. **Scalability:**
+   - Design the system to handle a growing number of routes, buses, and passengers without performance degradation.
+
+#### Optional Enhancements (Not required but could be added for further functionality):
+
+1. **Discounts and Offers:**
+   - Implement promotional offers, discounts for early bookings, or loyalty programs to attract and retain customers.
+
+2. **Feedback Collection:**
+   - Collect feedback from passengers about their booking experience and journey to improve service quality.
+

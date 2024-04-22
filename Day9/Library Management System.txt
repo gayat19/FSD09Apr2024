@@ -1,0 +1,48 @@
+Library Management System
+
+#### Objective:
+Develop a console-based library management system to automate the process of borrowing and returning books by patrons.
+
+#### Functional Requirements:
+
+1. **Book Catalog:**
+   - Maintain a catalog of available books, including details such as title, author, genre, publication date, and availability status.
+   - Display the list of available books along with their details to patrons.
+
+2. **Patron Management:**
+   - Allow patrons to register by providing unique IDs, names, contact information, etc.
+   - Provide the ability to search for patrons by name or ID.
+
+3. **Book Borrowing:**
+   - Patrons should be able to borrow available books from the library.
+   - Each borrowing transaction should record the patron's ID, book ID, borrowing date, and due date.
+   - Update the availability status of borrowed books accordingly.
+
+4. **Book Returning:**
+   - Patrons should be able to return borrowed books to the library.
+   - Upon return, update the availability status of the book and calculate any applicable late fees.
+
+#### Non-Functional Requirements:
+
+1. **User Interface:**
+   - Design an intuitive console interface with clear menus and prompts for easy book search, borrowing, and returning.
+
+2. **Efficiency:**
+   - The system should handle book transactions and inventory updates efficiently, even with a large number of books and patrons.
+
+3. **Security:**
+   - Implement access controls to ensure that only authorized library staff can perform administrative tasks such as book inventory management.
+
+4. **Scalability:**
+   - Design the system to handle a growing number of books and patrons without performance degradation.
+
+#### Optional Enhancements (Not required but could be added for further functionality):
+
+1. **Reservation System:**
+   - Allow patrons to reserve books that are currently checked out, ensuring availability upon their return.
+
+2. **Membership Levels:**
+   - Implement membership levels with different borrowing privileges or borrowing limits for patrons.
+
+3. **Fine Payment Handling:**
+   - Provide functionality for patrons to pay fines for overdue books, either in cash or through other specified methods.
