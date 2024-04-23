@@ -1,14 +1,16 @@
 ﻿using RequestTrackerDALLibrary;
 using RequestTrakerModelLibrary;
+using System.Diagnostics.CodeAnalysis;
 
 namespace RequestTrackerBLLibrary
 {
     public class DepartmentBL : IDepartmentService
     {
         readonly IRepository<int, Department> _departmentRepository;
-        public DepartmentBL()
+        public DepartmentBL(IRepository<int, Department> departmentRepository)
         {
-            _departmentRepository = new DepartmentRepository();
+            //_departmentRepository = new DepartmentRepository();//Tight coupling
+            _departmentRepository = departmentRepository;//Loose coupling
         }
 
         public int AddDepartment(Department department)
@@ -34,9 +36,13 @@ namespace RequestTrackerBLLibrary
 
         public Department GetDepartmentByName(string departmentName)
         {
-            throw new NotImplementedException();
+            var departments = _departmentRepository.GetAll();
+            for(int i = 0; i < departments.Count; i++)
+                if (departments[i].Name==departmentName)
+                    return departments[i];
+            throw new DepartmentNotFoundException();
         }
-
+        [ExcludeFromCodeCoverage]
         public int GetDepartmentHeadId(int departmentId)
         {
             throw new NotImplementedException();

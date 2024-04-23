@@ -1,4 +1,5 @@
 ﻿using RequestTrakerModelLibrary;
+using System.Diagnostics.CodeAnalysis;
 
 namespace RequestTrackerDALLibrary
 {
@@ -9,6 +10,7 @@ namespace RequestTrackerDALLibrary
         {
             _departments= new Dictionary<int, Department>();
         }
+        [ExcludeFromCodeCoverage]
         int GenerateId()
         {
             if (_departments.Count == 0)

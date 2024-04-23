@@ -1,5 +1,6 @@
 ﻿
 using RequestTrackerBLLibrary;
+using RequestTrackerDALLibrary;
 using RequestTrakerModelLibrary;
 using System.Collections;
 using System.Globalization;
@@ -11,7 +12,7 @@ namespace RequestTrackerApp
         void AddDepartment()
         {
            
-            DepartmentBL departmentBL = new DepartmentBL();
+            DepartmentBL departmentBL = new DepartmentBL(new DepartmentRepository());
             try
             {
                 Console.WriteLine("Pleae enter the department name");
