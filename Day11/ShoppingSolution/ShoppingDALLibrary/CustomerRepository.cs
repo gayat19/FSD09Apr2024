@@ -5,17 +5,23 @@ namespace ShoppingDALLibrary
 {
     public class CustomerRepository : AbstractRepository<int, Customer>
     {
-        public override Customer Delete(int key)
+        public override async Task<Customer> Add(Customer item)
         {
-            Customer customer = GetByKey(key);
+            item.IsActive = true;
+            return base.Add(item).Result;
+        }
+        public override async Task<Customer> Delete(int key)
+        {
+            Customer customer = items.SingleOrDefault(c=>c.Id == key);
             if(customer != null) 
             { 
-                items.Remove(customer);
+                //items.Remove(customer);
+                customer.IsActive = false;
             }
             return customer;
         }
 
-        public override Customer GetByKey(int key)
+        public override async Task<Customer> GetByKey(int key)
         {
             for(int i = 0; i < items.Count; i++)
             {
@@ -25,9 +31,9 @@ namespace ShoppingDALLibrary
             throw new NoCustomerWithGiveIdException();
         }
 
-        public override Customer Update(Customer item)
+        public override async Task<Customer> Update(Customer item)
         {
-            Customer customer = GetByKey(item.Id);
+            Customer customer = await GetByKey(item.Id);
             if (customer != null)
             {
                 customer = item;

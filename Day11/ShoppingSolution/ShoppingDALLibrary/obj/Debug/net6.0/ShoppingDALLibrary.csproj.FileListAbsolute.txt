@@ -1,0 +1,16 @@
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.deps.json
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.AssemblyReference.cache
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfoInputs.cache
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfo.cs
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.CoreCompileInputs.cache
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.sourcelink.json
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\Shopping.AA0D79B9.Up2Date
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\refint\ShoppingDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ref\ShoppingDALLibrary.dll

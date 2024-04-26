@@ -7,6 +7,7 @@
         public string Name { get; set; } = string.Empty;
         public string? Image { get; set; }
         public int QuantityInHand { get; set; }
+        public string Status { get; set; }
         public override string ToString()
         {
             return "Id : " + Id +
@@ -30,6 +31,7 @@
             Price = price;
             Name = name;
             QuantityInHand = quantityInHand;
+            Status = "Active";
         }
         public Product(int id, double price, string name, string? image, int quantityInHand)
         {
@@ -38,6 +40,7 @@
             Name = name;
             Image = image;
             QuantityInHand = quantityInHand;
+            Status = "Active";
         }
        
     }

@@ -13,3 +13,9 @@ D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\obj\Debug\ne
 D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\obj\Debug\net6.0\ShoppingFE.pdb
 D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\obj\Debug\net6.0\ShoppingFE.genruntimeconfig.cache
 D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\obj\Debug\net6.0\ref\ShoppingFE.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\bin\Debug\net6.0\ShoppingDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\bin\Debug\net6.0\ShoppingModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\obj\Debug\net6.0\ShoppingFE.csproj.AssemblyReference.cache
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingFE\obj\Debug\net6.0\ShoppingFE.csproj.Up2Date

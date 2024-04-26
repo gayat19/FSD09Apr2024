@@ -1,0 +1,12 @@
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.deps.json
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfoInputs.cache
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfo.cs
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.csproj.CoreCompileInputs.cache
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.sourcelink.json
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\refint\ShoppingModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day11\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ref\ShoppingModelLibrary.dll
