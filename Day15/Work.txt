@@ -1,0 +1,43 @@
+EF Codd
+Entity/ Relation
+   Strong - PK
+   Weak - no PK
+   Derived 
+Attribute
+   Simple - Single unit of data
+   Multi-Valued - More than one unit but cannot be split into multiple attributes
+   Complex - More than one unit of data but can be split meaningfully into multiple attributes
+   Derived - value derived from another attribute
+Tuple
+
+
+Primary Key -> No Null, No duplication
+Foreign Key -> Primary key of another enity appearing in the current entity
+Composite Key -> More than 1 attribute combining to become the primary key
+
+1NF
+No Multi-Values attribute
+PK is manditory
+All data in a attribute should be of similar datatype
+
+2NF
+Entity has to be in 1NF
+No Partial Dependency
+
+3NF
+Entity has to be in 2NF
+No Transitive Dependency
+
+SQL
+DDL
+DML
+DQL
+
+
+
+
+
+
+
+
+
