@@ -1,0 +1,225 @@
+Google Classroom
+Classroom
+Kanini Batch 3
+Home
+Calendar
+Teaching
+To review
+A
+APIEval
+K
+Kanini Batch 3
+Archived classes
+Settings
+Stream
+Classwork
+People
+Grades
+Classwork for Kanini Batch 3
+SQL
+SQL
+Gayathri Mahadevan posted a new assignment: Assessment - SQL
+Due Mar 20, 2023, 11:59 PM
+Posted Mar 20, 2023
+0
+Turned in
+1
+Assigned
+28
+Graded
+
+Questions.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: Trigger and cursor
+Due Mar 19, 2023, 11:59 PM
+Posted Mar 16, 2023
+1
+Turned in
+1
+Assigned
+27
+Graded
+
+Question.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new material: Trigger and Cursor
+Posted Mar 16, 2023
+https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16
+
+https://learn.microsoft.com/en-us/sql/t-sql/language-elements/declare-cursor-transact-sql?view=sql-server-ver16
+
+Add class comment…
+
+Gayathri Mahadevan posted a new material: Ino the Into
+Posted Mar 14, 2023
+INTO Clause (Transact-SQL) - SQL Server | Microsoft Learn
+
+INTO Clause (Transact-SQL) - SQL Server | Microsoft Learn
+https://learn.microsoft.com/en-us/sql/t-sql/queries/select-into-clause-transact-sql?view=sql-server-ver16
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: Function time
+Due Mar 15, 2023, 11:59 PM
+Posted Mar 14, 2023
+Have fun doing function
+0
+Turned in
+1
+Assigned
+28
+Graded
+
+Question.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new material: Function in MSDN
+Posted Mar 14, 2023
+What are the Microsoft SQL database functions? - SQL Server | Microsoft Learn
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: Store the Tran
+Due Mar 13, 2023, 11:59 PM
+Posted Mar 13, 2023
+Beware of all situations. Handle them
+0
+Turned in
+1
+Assigned
+28
+Graded
+
+Question.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: Stored Procedure
+Due Mar 10, 2023, 11:59 PM
+Posted Mar 10, 2023
+0
+Turned in
+1
+Assigned
+28
+Graded
+
+Question.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: Sub-Queries & Joins
+Due Mar 7, 2023, 11:59 PM
+Posted Mar 7, 2023
+0
+Turned in
+1
+Assigned
+28
+Graded
+
+Questions.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: Select
+Due Mar 6, 2023, 11:59 PM
+Posted Mar 6, 2023
+All the best!!
+0
+Turned in
+2
+Assigned
+27
+Graded
+
+Question.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: DML+DDL
+Due Mar 5, 2023, 11:59 PM
+Posted Mar 1, 2023
+27
+Turned in
+2
+Assigned
+
+Question.docx
+Word
+
+Add class comment…
+
+Gayathri Mahadevan posted a new assignment: Modeling
+Due Mar 5, 2023, 11:59 PM
+Posted Feb 28, 2023 (Edited Mar 1, 2023)
+25
+Turned in
+4
+Assigned
+
+Question.txt
+Text
+
+Add class comment…
+
+Gayathri Mahadevan posted a new material: Datatypes in SQL
+Posted Feb 28, 2023
+https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16
+
+Add class comment…
+
+Gayathri Mahadevan posted a new material: Installation and connection
+Posted Feb 28, 2023
+
+SQL Installation Guide.docx
+Word
+
+Connect to SQL Server in SSMS.docx
+Word
+
+Add class comment…
+
+1) Print the storeid and number of orders for the store
+
+2) print the numebr of orders for every title
+
+3) print the publisher name and book name
+
+4) Print the author full name for al the authors
+
+5) Print the price or every book with tax (price+price*12.36/100)
+
+6) Print the author name, title name
+
+7) print the author name, title name and the publisher name
+
+8) Print the average price of books pulished by every publicher
+
+9) print the books published by 'Marjorie'
+
+10) Print the order numbers of books published by 'New Moon Books'
+
+11) Print the number of orders for every publisher
+
+12) print the order number , book name, quantity, price and the total price for all orders
+
+13) print he total order quantity fro every book
+
+14) print the total ordervalue for every book
+
+15) print the orders that are for the books published by the publisher for which 'Paolo' works for
+Questions.txt
+Displaying Questions.txt.
