@@ -221,5 +221,3 @@ Add class comment…
 14) print the total ordervalue for every book
 
 15) print the orders that are for the books published by the publisher for which 'Paolo' works for
-Questions.txt
-Displaying Questions.txt.

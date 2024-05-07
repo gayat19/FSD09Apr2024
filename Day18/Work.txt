@@ -1,0 +1,13 @@
+Candidate - Id, Name, Email, Phone
+FeedbackMaster - Id, DateCreated, DateAssigned, ClosureDate, NoOfQuestion, Average
+FeedbackQuestion  - FeddbackMasterID, QuestionID, Question, Type, IsManditory
+FeedBackAnswer - QAID, QuestionID, Answer
+CadidateFeedback - CandidateID, QuestionId, QAID(Nullable), DetailAnswer(Nullable)
+
+
+A shop want to record the stock available and billed in a shop. 
+Customer data has to be minimum. 
+One product could be supplied by multiple supplier.
+A Single supplier can supply many products.
+
+
