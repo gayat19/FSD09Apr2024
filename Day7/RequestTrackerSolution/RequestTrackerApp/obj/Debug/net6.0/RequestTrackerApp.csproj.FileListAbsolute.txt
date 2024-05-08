@@ -21,3 +21,9 @@ D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\
 D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\RequestTrackerDALLibrary.dll
 D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\RequestTrackerBLLibrary.pdb
 D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\RequestTrackerDALLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -46,8 +46,7 @@
               "RelativeToolTip": "RequestTrackerModelLibrary\\Department.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAQwA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T08:32:26.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T08:32:26.691Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "RequestTrackerModelLibrary\\Employee.cs",
               "ViewState": "AQIAAEgAAAAAAAAAAAAAAFUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:20:16.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T07:20:16.399Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "RequestTrackerModelLibrary\\IClientInteraction.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAYwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:20:07.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T07:20:07.848Z"
             },
             {
               "$type": "Document",
@@ -83,7 +80,7 @@
               "RelativeDocumentMoniker": "RequestTrackerApplication\\Program.cs",
               "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day5\\RequestTrackerSolution\\RequestTrackerApplication\\Program.cs",
               "RelativeToolTip": "RequestTrackerApplication\\Program.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAAAEoAAAA+AAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAwEoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T07:16:43.017Z",
               "EditorCaption": ""
@@ -110,8 +107,7 @@
               "RelativeToolTip": "RequestTrackerApplication\\Company.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAgwBAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:14:25.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T07:14:25.852Z"
             }
           ]
         }

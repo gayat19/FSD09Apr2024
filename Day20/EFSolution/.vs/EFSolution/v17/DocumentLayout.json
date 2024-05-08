@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GenSpark\\Presidio\\Participants\\Day20\\EFSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEAF86B-1265-4275-8EC6-A1DC20823B15}|SampleEFApp\\SampleEFApp.csproj|d:\\genspark\\presidio\\participants\\day20\\efsolution\\sampleefapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEAF86B-1265-4275-8EC6-A1DC20823B15}|SampleEFApp\\SampleEFApp.csproj|solutionrelative:sampleefapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEAF86B-1265-4275-8EC6-A1DC20823B15}|SampleEFApp\\SampleEFApp.csproj|d:\\genspark\\presidio\\participants\\day20\\efsolution\\sampleefapp\\model\\dbemployeetrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEAF86B-1265-4275-8EC6-A1DC20823B15}|SampleEFApp\\SampleEFApp.csproj|solutionrelative:sampleefapp\\model\\dbemployeetrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbEmployeeTrackerContext.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day20\\EFSolution\\SampleEFApp\\Model\\dbEmployeeTrackerContext.cs",
+              "RelativeDocumentMoniker": "SampleEFApp\\Model\\dbEmployeeTrackerContext.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day20\\EFSolution\\SampleEFApp\\Model\\dbEmployeeTrackerContext.cs",
+              "RelativeToolTip": "SampleEFApp\\Model\\dbEmployeeTrackerContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:44:09.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day20\\EFSolution\\SampleEFApp\\Program.cs",
+              "RelativeDocumentMoniker": "SampleEFApp\\Program.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day20\\EFSolution\\SampleEFApp\\Program.cs",
+              "RelativeToolTip": "SampleEFApp\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:19:00.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
