@@ -1,11 +1,12 @@
 ﻿
 using RequestTrackerBLLibrary;
 using RequestTrackerDALLibrary;
-using RequestTrakerModelLibrary;
+//using RequestTrakerModelLibrary;
 using System.Collections;
 using System.Globalization;
 using System.Data.SqlClient;
 using System.Data;
+using RequestTrackerDALLibrary.Models;
 
 namespace RequestTrackerApp
 {

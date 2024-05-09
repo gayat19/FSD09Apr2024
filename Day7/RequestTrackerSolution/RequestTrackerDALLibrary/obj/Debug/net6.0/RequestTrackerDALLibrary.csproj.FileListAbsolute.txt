@@ -14,3 +14,5 @@ D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALL
 D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\refint\RequestTrackerDALLibrary.dll
 D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.pdb
 D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\ref\RequestTrackerDALLibrary.dll
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerDALLibrary.runtimeconfig.json
+D:\GenSpark\Presidio\Participants\Day7\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.genruntimeconfig.cache

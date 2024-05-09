@@ -1,4 +1,4 @@
-﻿using RequestTrakerModelLibrary;
+﻿using RequestTrackerDALLibrary.Models;
 using System.Diagnostics.CodeAnalysis;
 
 namespace RequestTrackerDALLibrary

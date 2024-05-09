@@ -1,5 +1,7 @@
 ﻿using RequestTrackerDALLibrary;
-using RequestTrakerModelLibrary;
+using RequestTrackerDALLibrary.Models;
+
+//using RequestTrakerModelLibrary;
 using System.Diagnostics.CodeAnalysis;
 
 namespace RequestTrackerBLLibrary

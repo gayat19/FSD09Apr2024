@@ -1,0 +1,15 @@
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.csproj.AssemblyReference.cache
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.AssemblyInfoInputs.cache
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.AssemblyInfo.cs
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.csproj.CoreCompileInputs.cache
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.sourcelink.json
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.deps.json
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.runtimeconfig.json
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\refint\RequestTrackerModelLibrary.dll
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.pdb
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\RequestTrackerModelLibrary.genruntimeconfig.cache
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net6.0\ref\RequestTrackerModelLibrary.dll

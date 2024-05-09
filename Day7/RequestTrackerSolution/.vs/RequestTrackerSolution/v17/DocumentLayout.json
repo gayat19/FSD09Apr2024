@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrackerdallibrary\\requesttrackerdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\requesttrackerdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrakermodellibrary\\requesttrakermodellibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|solutionrelative:requesttrakermodellibrary\\requesttrakermodellibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrackerdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrakermodellibrary\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|solutionrelative:requesttrakermodellibrary\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrakermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|solutionrelative:requesttrakermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrakermodellibrary\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E5F276-D83C-43AD-957C-3FC39C74651D}|RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj|solutionrelative:requesttrakermodellibrary\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E90EC55-371E-489E-82AE-4F0DB85870D1}|RequestTrackerApp\\RequestTrackerApp.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E90EC55-371E-489E-82AE-4F0DB85870D1}|RequestTrackerApp\\RequestTrackerApp.csproj|solutionrelative:requesttrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrackerbllibrary\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrackerbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrackerdallibrary\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|d:\\genspark\\presidio\\participants\\day7\\requesttrackersolution\\requesttrackerdallibrary\\requesttrackerdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\requesttrackerdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,12 +50,116 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Request.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\Request.cs",
+              "RelativeDocumentMoniker": "RequestTrakerModelLibrary\\Request.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\Request.cs",
+              "RelativeToolTip": "RequestTrakerModelLibrary\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:00:32.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "RequestTrakerModelLibrary\\Employee.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\Employee.cs",
+              "RelativeToolTip": "RequestTrakerModelLibrary\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:00:31.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RequestTrackerDALLibrary",
+              "Title": "RequestTrakerModelLibrary",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj",
+              "RelativeDocumentMoniker": "RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj",
+              "RelativeToolTip": "RequestTrakerModelLibrary\\RequestTrakerModelLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T13:00:25.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:05:10.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentBL.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:04:02.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:03:38.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\Department.cs",
+              "RelativeDocumentMoniker": "RequestTrakerModelLibrary\\Department.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrakerModelLibrary\\Department.cs",
+              "RelativeToolTip": "RequestTrakerModelLibrary\\Department.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:03:05.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\Models\\Department.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\Models\\Department.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\Models\\Department.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:03:03.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestTrackerDALLibrary.csproj",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
               "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
               "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
@@ -35,13 +171,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerApp\\Program.cs",
               "RelativeDocumentMoniker": "RequestTrackerApp\\Program.cs",
               "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day7\\RequestTrackerSolution\\RequestTrackerApp\\Program.cs",
               "RelativeToolTip": "RequestTrackerApp\\Program.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAADUAAAAgAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T07:16:51.837Z",
               "EditorCaption": ""
