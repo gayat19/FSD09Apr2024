@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ASoNPV9crzQb2mnAdOHicA1/Hjz8zYNwZo2d5DVuL6tXKeN/8dj2oLbN/OKTuRdZ1k28IV77S2+vdBzqIp3DLw==",
+  "dgSpecHash": "Xr8JpHAwdgIe7av7K+jafj3mhchpQtoLkWr+dSFNC14GsFSqMC73yr9BwKavUlaTVTO/ry0ue3XxECcaU3QWtA==",
   "success": true,
   "projectFilePath": "D:\\GenSpark\\Presidio\\Participants\\Day21\\RequestTrackerSolution\\RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.29\\microsoft.entityframeworkcore.6.0.29.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.29\\microsoft.entityframeworkcore.abstractions.6.0.29.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.29\\microsoft.entityframeworkcore.analyzers.6.0.29.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.29\\microsoft.entityframeworkcore.design.6.0.29.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.29\\microsoft.entityframeworkcore.relational.6.0.29.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.29\\microsoft.entityframeworkcore.sqlserver.6.0.29.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

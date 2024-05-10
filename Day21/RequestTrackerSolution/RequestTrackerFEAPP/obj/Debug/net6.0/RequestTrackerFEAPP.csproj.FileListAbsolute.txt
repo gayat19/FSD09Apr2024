@@ -62,3 +62,5 @@ D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerFEA
 D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerFEAPP\obj\Debug\net6.0\RequestTrackerFEAPP.pdb
 D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerFEAPP\obj\Debug\net6.0\RequestTrackerFEAPP.genruntimeconfig.cache
 D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerFEAPP\obj\Debug\net6.0\ref\RequestTrackerFEAPP.dll
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerFEAPP\bin\Debug\net6.0\Humanizer.dll
+D:\GenSpark\Presidio\Participants\Day21\RequestTrackerSolution\RequestTrackerFEAPP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

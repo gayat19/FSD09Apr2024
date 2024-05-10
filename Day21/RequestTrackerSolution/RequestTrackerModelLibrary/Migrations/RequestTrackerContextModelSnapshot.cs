@@ -107,6 +107,74 @@ namespace RequestTrackerModelLibrary.Migrations
                     b.ToTable("Requests");
                 });
 
+            modelBuilder.Entity("RequestTrackerModelLibrary.RequestSolution", b =>
+                {
+                    b.Property<int>("SolutionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SolutionId"), 1L, 1);
+
+                    b.Property<bool>("IsSolved")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("RequestId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RequestRaiserComment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SolutionDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SolvedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("SolvedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("SolutionId");
+
+                    b.HasIndex("RequestId");
+
+                    b.HasIndex("SolvedBy");
+
+                    b.ToTable("RequestSolutions");
+                });
+
+            modelBuilder.Entity("RequestTrackerModelLibrary.SolutionFeedback", b =>
+                {
+                    b.Property<int>("FeedbackId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeedbackId"), 1L, 1);
+
+                    b.Property<int>("FeedbackBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FeedbackDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<float>("Rating")
+                        .HasColumnType("real");
+
+                    b.Property<string>("Remarks")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SolutionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("FeedbackId");
+
+                    b.HasIndex("FeedbackBy");
+
+                    b.HasIndex("SolutionId");
+
+                    b.ToTable("Feedbacks");
+                });
+
             modelBuilder.Entity("RequestTrackerModelLibrary.Request", b =>
                 {
                     b.HasOne("RequestTrackerModelLibrary.Employee", "RequestClosedByEmployee")
@@ -126,11 +194,63 @@ namespace RequestTrackerModelLibrary.Migrations
                     b.Navigation("RequestClosedByEmployee");
                 });
 
+            modelBuilder.Entity("RequestTrackerModelLibrary.RequestSolution", b =>
+                {
+                    b.HasOne("RequestTrackerModelLibrary.Request", "RequestRaised")
+                        .WithMany("RequestSolutions")
+                        .HasForeignKey("RequestId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("RequestTrackerModelLibrary.Employee", "SolvedByEmployee")
+                        .WithMany("SolutionsProvided")
+                        .HasForeignKey("SolvedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("RequestRaised");
+
+                    b.Navigation("SolvedByEmployee");
+                });
+
+            modelBuilder.Entity("RequestTrackerModelLibrary.SolutionFeedback", b =>
+                {
+                    b.HasOne("RequestTrackerModelLibrary.Employee", "FeedbackByEmployee")
+                        .WithMany("FeedbacksGiven")
+                        .HasForeignKey("FeedbackBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("RequestTrackerModelLibrary.RequestSolution", "Solution")
+                        .WithMany("Feedbacks")
+                        .HasForeignKey("SolutionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("FeedbackByEmployee");
+
+                    b.Navigation("Solution");
+                });
+
             modelBuilder.Entity("RequestTrackerModelLibrary.Employee", b =>
                 {
+                    b.Navigation("FeedbacksGiven");
+
                     b.Navigation("RequestsClosed");
 
                     b.Navigation("RequestsRaised");
+
+                    b.Navigation("SolutionsProvided");
+                });
+
+            modelBuilder.Entity("RequestTrackerModelLibrary.Request", b =>
+                {
+                    b.Navigation("RequestSolutions");
+                });
+
+            modelBuilder.Entity("RequestTrackerModelLibrary.RequestSolution", b =>
+                {
+                    b.Navigation("Feedbacks");
                 });
 #pragma warning restore 612, 618
         }

@@ -176,9 +176,6 @@
             "projectReferences": {
               "D:\\GenSpark\\Presidio\\Participants\\Day21\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj": {
                 "projectPath": "D:\\GenSpark\\Presidio\\Participants\\Day21\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj"
-              },
-              "D:\\GenSpark\\Presidio\\Participants\\Day21\\RequestTrackerSolution\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj": {
-                "projectPath": "D:\\GenSpark\\Presidio\\Participants\\Day21\\RequestTrackerSolution\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj"
               }
             }
           }
@@ -197,6 +194,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
