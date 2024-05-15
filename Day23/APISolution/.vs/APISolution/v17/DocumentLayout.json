@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|d:\\genspark\\presidio\\participants\\day23\\apisolution\\firstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|d:\\genspark\\presidio\\participants\\day23\\apisolution\\firstapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|d:\\genspark\\presidio\\participants\\day23\\apisolution\\firstapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|d:\\genspark\\presidio\\participants\\day23\\apisolution\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|d:\\genspark\\presidio\\participants\\day23\\apisolution\\firstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED044BE4-C399-4E12-8FBC-584541E48F31}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Program.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\Program.cs",
+              "RelativeToolTip": "FirstAPI\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:49:23.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FirstAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FirstAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T06:45:30.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "FirstAPI\\appsettings.json",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\appsettings.json",
+              "RelativeToolTip": "FirstAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T06:44:39.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:44:27.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\WeatherForecast.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day23\\APISolution\\FirstAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "FirstAPI\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:44:16.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

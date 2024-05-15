@@ -1,0 +1,11 @@
+Postman
+https://www.postman.com/downloads/
+
+Json
+https://www.w3schools.com/whatis/whatis_json.asp
+
+REST
+https://restfulapi.net/
+
+
+https://www.hackerrank.com/skills-verification/c_sharp_basic

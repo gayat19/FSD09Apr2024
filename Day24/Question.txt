@@ -1,0 +1,9 @@
+ClinicAPI
+Doctors
+   List Doctors
+   Update Doctor Experience
+   List doctor based on speciality
+
+1) https://www.hackerrank.com/challenges/more-than-75-marks/problem?isFullScreen=true
+
+2)https://www.hackerrank.com/challenges/contest-leaderboard/problem?isFullScreen=true
