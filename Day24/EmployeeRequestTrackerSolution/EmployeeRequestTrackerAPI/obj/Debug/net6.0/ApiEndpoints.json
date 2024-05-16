@@ -101,7 +101,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EmployeeRequestTrackerAPI.Models.Employee",
+        "Type": "EmployeeRequestTrackerAPI.Models.DTOs.LoginReturnDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -4,6 +4,7 @@ using EmployeeRequestTrackerAPI.Interfaces;
 using EmployeeRequestTrackerAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Diagnostics;
 
 namespace EmployeeRequestTrackerAPI.Repositories
 {
@@ -26,6 +27,7 @@ namespace EmployeeRequestTrackerAPI.Repositories
             var employee = await Get(key);
             if(employee != null)
             {
+                Debug.WriteLine(_context.Entry(employee).State);
                 _context.Remove(employee);
                 _context.SaveChangesAsync(true);
                 return employee;

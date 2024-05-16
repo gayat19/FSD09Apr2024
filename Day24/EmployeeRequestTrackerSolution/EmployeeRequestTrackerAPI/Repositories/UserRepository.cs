@@ -36,7 +36,7 @@ namespace EmployeeRequestTrackerAPI.Repositories
 
         public async Task<User> Get(int key)
         {
-            return (await _context.Users.SingleOrDefaultAsync(u => u.EmployeeId == key)) ?? throw new Exception("No user with the given ID");
+            return (await _context.Users.FirstOrDefaultAsync(u => u.EmployeeId == key)) ?? throw new Exception("No user with the given ID");
         }
 
         public async Task<IEnumerable<User>> Get()
