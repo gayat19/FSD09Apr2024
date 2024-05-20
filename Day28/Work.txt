@@ -1,0 +1,4 @@
+
+Scaffold-DbContext "Data Source=G3SLAPTOP\SQLEXPRESS;Integrated Security=true;Initial Catalog=pubs" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model
+
+Print the TitleId and the same Quantity and order id for every title

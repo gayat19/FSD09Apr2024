@@ -12,10 +12,12 @@ namespace EmployeeRequestTrackerAPI.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
+        private readonly ILogger<EmployeeController> _logger;
 
-        public EmployeeController(IEmployeeService employeeService) 
+        public EmployeeController(IEmployeeService employeeService,ILogger<EmployeeController> logger) 
         {
             _employeeService = employeeService;
+            _logger = logger;
         }
         [Authorize]
         [HttpGet]
@@ -31,6 +33,7 @@ namespace EmployeeRequestTrackerAPI.Controllers
             }
             catch (NoEmployeesFoundException nefe)
             {
+                _logger.LogError(nefe.Message);
                 return NotFound(new ErrorModel(404,nefe.Message));
             }
         }

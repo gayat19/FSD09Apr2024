@@ -69,3 +69,6 @@ D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeR
 D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\obj\Debug\net6.0\ref\EmployeeRequestTrackerAPI.dll
 D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\bin\Debug\net6.0\log4net.dll
+D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\bin\Debug\net6.0\log4net.config
