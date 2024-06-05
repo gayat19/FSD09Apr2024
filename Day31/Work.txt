@@ -1,0 +1,7 @@
+SOLID
+
+S - Single Responsibility
+O - Open and Closed
+L - Liskov's sub
+I - Interface Seg
+D - Dependency Inversion

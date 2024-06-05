@@ -18,3 +18,65 @@ SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Stat
 FROM [Users] AS [u]
 WHERE [u].[EmployeeId] = @__key_0
 FATAL 12:23:42 User not authenticated
+INFO  10:07:54 Now listening on: http://localhost:5200
+INFO  10:07:54 Application started. Press Ctrl+C to shut down.
+INFO  10:07:54 Hosting environment: Development
+INFO  10:07:54 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  11:36:11 Now listening on: http://localhost:5200
+INFO  11:36:11 Application started. Press Ctrl+C to shut down.
+INFO  11:36:11 Hosting environment: Development
+INFO  11:36:11 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  11:36:35 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  11:36:36 Executed DbCommand (114ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+FATAL 11:36:36 User not authenticated
+INFO  11:37:21 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  11:37:21 Executed DbCommand (4ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+FATAL 11:37:22 User not authenticated
+INFO  11:37:47 Now listening on: http://localhost:5200
+INFO  11:37:47 Application started. Press Ctrl+C to shut down.
+INFO  11:37:47 Hosting environment: Development
+INFO  11:37:47 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  11:38:09 Now listening on: http://localhost:5200
+INFO  11:38:09 Application started. Press Ctrl+C to shut down.
+INFO  11:38:09 Hosting environment: Development
+INFO  11:38:09 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  11:38:16 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  11:38:18 Executed DbCommand (136ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+FATAL 11:38:18 User not authenticated
+INFO  11:40:16 Now listening on: http://localhost:5200
+INFO  11:40:16 Application started. Press Ctrl+C to shut down.
+INFO  11:40:16 Hosting environment: Development
+INFO  11:40:16 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  11:40:28 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  11:40:29 Executed DbCommand (99ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+FATAL 11:40:29 User not authenticated
+INFO  11:40:54 Now listening on: http://localhost:5200
+INFO  11:40:54 Application started. Press Ctrl+C to shut down.
+INFO  11:40:54 Hosting environment: Development
+INFO  11:40:54 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  11:41:17 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  11:41:18 Executed DbCommand (105ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+FATAL 11:41:19 User not authenticated
+INFO  11:42:53 Now listening on: http://localhost:5200
+INFO  11:42:53 Application started. Press Ctrl+C to shut down.
+INFO  11:42:53 Hosting environment: Development
+INFO  11:42:53 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  11:44:15 Now listening on: http://localhost:5200
+INFO  11:44:15 Application started. Press Ctrl+C to shut down.
+INFO  11:44:15 Hosting environment: Development
+INFO  11:44:15 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\

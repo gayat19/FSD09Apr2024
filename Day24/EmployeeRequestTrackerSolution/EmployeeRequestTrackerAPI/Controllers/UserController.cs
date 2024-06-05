@@ -24,16 +24,20 @@ namespace EmployeeRequestTrackerAPI.Controllers
         [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<LoginReturnDTO>> Login(UserLoginDTO userLoginDTO)
         {
-            try
+            if(ModelState.IsValid)
             {
-                var result = await _userService.Login(userLoginDTO);
-                return Ok(result);
+                try
+                {
+                    var result = await _userService.Login(userLoginDTO);
+                    return Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogCritical("User not authenticated");
+                    return Unauthorized(new ErrorModel(401, ex.Message));
+                }
             }
-            catch (Exception ex)
-            {
-                _logger.LogCritical("User not authenticated");
-                return Unauthorized(new ErrorModel(401, ex.Message));
-            }
+            return BadRequest("All details are not provided. Please check the object");
         }
         [HttpPost("Register")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]

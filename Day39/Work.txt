@@ -1,0 +1,10 @@
+Web Page
+   text, images, audio, video, controls, links
+
+Table for products
+Name, Price, picture, quantity in hand
+
+
+External
+Internal 
+Inline

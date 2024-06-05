@@ -67,7 +67,7 @@ namespace EmployeeRequestTrackerAPI.Services
                 employee = await _employeeRepo.Add(employee);
                 user.EmployeeId = employee.Id;
                 user = await _userRepo.Add(user);
-                ((EmployeeUserDTO)employee).Password = string.Empty;
+                ((EmployeeUserDTO)employee).Password = string.Empty;//Effect of not following Liskov's Substitution 
                
                 return employee;
             }

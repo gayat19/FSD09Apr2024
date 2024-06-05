@@ -13,7 +13,7 @@ namespace EmployeeRequestTrackerAPI.Services
         {
             _repository = reposiroty;
         }
-        public async Task<Employee> GetEmployeeByPhone(string phoneNumber)
+        public virtual async Task<Employee> GetEmployeeByPhone(string phoneNumber)
         {
             var employee = (await _repository.Get()).FirstOrDefault(e => e.Phone == phoneNumber);
             if (employee == null)

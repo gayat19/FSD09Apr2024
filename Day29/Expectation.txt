@@ -1,0 +1,12 @@
+
+
+
+Expectation
+1) All end point properly planned
+2) Have understanding of data flow
+3) Arrange the Postman workspace for testing
+4) Handle the open API documentations
+5) DTOs for handling the flow.
+6) Layer separation- DTO for that as well
+7) Validations
+8) Authentication and Authorization
