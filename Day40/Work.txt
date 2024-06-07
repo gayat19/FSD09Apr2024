@@ -1,0 +1,16 @@
+ section{
+            background-color: blue;
+            height: 460px;
+            width: 300px;
+            position: absolute;
+            top: 30px;
+            padding: 15px;
+        }
+        div{
+            background-color: chartreuse;
+            height: 200px;
+            width: 200px;
+            top:10px;
+            position: relative;
+            margin:20px
+        }
