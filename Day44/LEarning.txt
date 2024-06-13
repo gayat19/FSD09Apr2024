@@ -1,0 +1,38 @@
+1) simple execution - > Setting up the environment
+ Hello world
+
+2) Datatypes -> understanding the working of types
+   Typesafe or no?
+
+3) Basic syntax - sequence - input/output, declarations
+ 	   	  Selection ->if,if-elese, switch, ternart
+		  Iteration - for,while,dowhile, for each
+
+4) Collection -> grop data todther
+
+5) Data management -> database connectivity/no
+		      API calls
+
+6) Security -> Diff security aspects of the technology
+
+7) OPtimization
+
+-------------------------------------------------------------
+BE-> Req handling
+     Routing
+     Filtering requestest
+     Compatibility
+     Caching
+     State management(Opt)
+     
+FE ->   
+    Basic element
+    Inter element communication
+    Routing
+   Styling
+    State management
+   Validation
+    
+--------------------------------------------------------------------
+Technology specific stuff
+  
