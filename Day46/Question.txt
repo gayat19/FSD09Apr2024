@@ -1,0 +1,62 @@
+
+
+Create a page where you will have a table of products. 
+There should also be a form where we can enter the product data.
+When a new product is entered it should get appended in the table
+Both form for adding Product and the Table for display in the same page
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+        
+           
+    </script>
+</head>
+<body>
+    <h1>Product Data</h1>
+    <div>
+       
+    </div>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Product 1</td>
+            <td>$10.00</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Product 2</td>
+            <td>$15.00</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Product 3</td>
+            <td>$20.00</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+</html>
