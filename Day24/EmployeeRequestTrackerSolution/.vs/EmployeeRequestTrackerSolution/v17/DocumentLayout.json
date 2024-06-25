@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|d:\\genspark\\presidio\\participants\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|d:\\genspark\\presidio\\participants\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|d:\\genspark\\presidio\\participants\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|d:\\genspark\\presidio\\participants\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|d:\\genspark\\presidio\\participants\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,19 +59,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs*",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:22:33.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Program.cs",
-              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Program.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Program.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEgAAAAgAAAA",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Program.cs*",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Program.cs*",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAQwGUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T07:02:44.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Interfaces\\IEmployeeService.cs",
@@ -75,12 +92,11 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Interfaces\\IEmployeeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:58:14.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T06:58:14.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\UserService.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Services\\UserService.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAkwEUAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:39:45.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T06:39:45.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EmployeeUserDTO.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\EmployeeUserDTO.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\EmployeeUserDTO.cs",
@@ -101,12 +116,11 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\EmployeeUserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:37:04.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T06:37:04.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EmployeeBasicService.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\EmployeeBasicService.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\EmployeeBasicService.cs",
@@ -114,12 +128,11 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Services\\EmployeeBasicService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:22:35.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T06:22:35.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
@@ -127,12 +140,11 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:22:26.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T06:22:26.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\Employee.cs",
@@ -140,25 +152,24 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:22:20.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T06:22:20.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwDIAAAANAAAA",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\UserController.cs*",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T06:08:55.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "LoginReturnDTO.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\LoginReturnDTO.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\LoginReturnDTO.cs",
@@ -166,12 +177,11 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\LoginReturnDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T06:08:47.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T06:08:47.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserLoginDTO.cs",
               "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
@@ -179,8 +189,7 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T06:02:36.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T06:02:36.561Z"
             }
           ]
         }

@@ -80,3 +80,73 @@ INFO  11:44:15 Now listening on: http://localhost:5200
 INFO  11:44:15 Application started. Press Ctrl+C to shut down.
 INFO  11:44:15 Hosting environment: Development
 INFO  11:44:15 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  09:38:34 Now listening on: http://localhost:5200
+INFO  09:38:34 Application started. Press Ctrl+C to shut down.
+INFO  09:38:34 Hosting environment: Development
+INFO  09:38:34 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  09:39:09 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  09:39:09 Executed DbCommand (85ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([DateOfBirth], [Image], [Name], [Phone], [Role])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  09:39:09 Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([EmployeeId], [Password], [PasswordHashKey], [Status])
+VALUES (@p0, @p1, @p2, @p3);
+INFO  09:39:49 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  09:39:49 Executed DbCommand (3ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+INFO  09:39:49 Executed DbCommand (3ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DateOfBirth], [e].[Image], [e].[Name], [e].[Phone], [e].[Role]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__key_0
+INFO  09:52:47 Now listening on: http://localhost:5200
+INFO  09:52:47 Application started. Press Ctrl+C to shut down.
+INFO  09:52:47 Hosting environment: Development
+INFO  09:52:47 Content root path: D:\GenSpark\Presidio\Participants\Day24\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI\
+INFO  09:53:07 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  09:53:09 Executed DbCommand (221ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+FATAL 09:53:09 User not authenticated
+INFO  09:53:25 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  09:53:25 Executed DbCommand (10ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+INFO  09:53:25 Executed DbCommand (29ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DateOfBirth], [e].[Image], [e].[Name], [e].[Phone], [e].[Role]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__key_0
+INFO  10:29:29 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  10:29:29 Executed DbCommand (5ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+INFO  10:29:29 Executed DbCommand (2ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DateOfBirth], [e].[Image], [e].[Name], [e].[Phone], [e].[Role]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__key_0
+INFO  10:29:50 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  10:29:50 Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DateOfBirth], [e].[Image], [e].[Name], [e].[Phone], [e].[Role]
+FROM [Employees] AS [e]
+INFO  10:33:23 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  10:33:23 Executed DbCommand (2ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+INFO  10:33:23 Executed DbCommand (2ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DateOfBirth], [e].[Image], [e].[Name], [e].[Phone], [e].[Role]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__key_0
+INFO  10:33:23 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  10:33:23 Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[DateOfBirth], [e].[Image], [e].[Name], [e].[Phone], [e].[Role]
+FROM [Employees] AS [e]
