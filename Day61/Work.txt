@@ -1,0 +1,93 @@
+create a dir
+create a file
+install editor
+edit the file(Add some content)
+show fiel content
+edit file again
+show file content again
+delete the file
+delete the dir
+delete the app
+Optional
+   change rights for a file -> rwx
+exit out of linux
+
+docker pull ubuntu
+docker run -it --name ubuntu_a ubuntu
+whoami
+ls
+ls -a
+ls -l
+mkdir
+cd <dir>
+touch <filename>
+apt update
+apt install nano
+nano <filename>
+cat <filename>
+rm <filename>
+rmdir <dir>
+exit
+
+
+docker start ubuntu_a
+docker start -ai <container_id>
+docker system prune -a
+
+const express = require('express')
+ const app = express();
+ const port = 3232;
+
+
+    app.get('/', (req, res) => {
+        res.send('Hello World!')
+    });
+
+    app.listen(port, () => {
+        console.log(`Check change app listening at http://localhost:${port}`)
+    });
+
+      
+      
+      
+      
+FROM node:alpine
+
+WORKDIR /app
+
+RUN npm install -g nodemon
+
+COPY package.json /app
+
+RUN npm install
+
+COPY . /app
+
+EXPOSE 3232
+
+CMD ["npm", "run", "dev"]
+  
+  
+  
+{
+  "name": "feapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+      
+docker build -t simpleapp .
+
+      
+docker run --name feapp_5 -p 3234:3232 simpleapp
+

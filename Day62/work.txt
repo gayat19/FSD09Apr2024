@@ -1,0 +1,35 @@
+docker pull mcr.microsoft.com/mssql/server
+
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=password123" -p 1433:1433 -d mcr.microsoft.com/mssql/server
+
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=password123" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+
+"ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=MyDatabase;User=sa;Password=password123;"
+  },
+
+
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+#Pull Base image
+FROM mcr.microsoft.com/dotnet/sdk:6.0 
+WORKDIR /src
+
+#restore dependency
+COPY ["*.csproj", "./"]
+RUN dotnet restore 
+
+
+COPY . .
+RUN dotnet publish  -c Release -o /app
+
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 
+WORKDIR /app
+COPY --from=build /app .
+
+ENTRYPOINT ["dotnet", "ShopAPI.dll"]
+
+
+
+

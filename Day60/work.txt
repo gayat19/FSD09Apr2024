@@ -1,0 +1,17 @@
+docker --version
+
+docker pull hello-world
+
+docker images
+
+docker ps -a
+
+-------------------------------------------
+node installation
+
+copy my application files and keep it -> folder it
+
+execute node app.js
+
+
+Docker engine
