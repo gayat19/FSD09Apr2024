@@ -1,0 +1,30 @@
+ARM Naming rules - https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules
+
+az deployment group create --name azurestorage --resource-group rgTemplate --template-file azuretemplateone.json
+
+
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "resources":[
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2019-06-01",
+            "name": "g3storage1807",
+            "location": "East US 2",
+            "sku": {
+                "name": "Standard_LRS"
+            },
+            "kind": "StorageV2",
+            "properties": {
+                "accessTier": "Hot"
+            }
+        }
+    ]
+}
+
+
+az deployment group create --name azurestorage --resource-group rgTemplate --template-file azuretemplateone.json --parameters storageName=azurestoreg31910  storageAccountType=Standard_LRS
+
+
+RBAC - https://learn.microsoft.com/en-us/azure/role-based-access-control/overview

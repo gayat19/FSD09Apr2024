@@ -150,3 +150,62 @@ INFO  10:33:23 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' 
 INFO  10:33:23 Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT [e].[Id], [e].[DateOfBirth], [e].[Image], [e].[Name], [e].[Phone], [e].[Role]
 FROM [Employees] AS [e]
+INFO  10:00:47 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  10:00:58 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  10:01:00 Executed DbCommand (253ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+INFO  10:01:00 Executed DbCommand (254ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+INFO  10:01:00 Executed DbCommand (242ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+INFO  10:01:01 Executed DbCommand (284ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+INFO  10:01:01 Executed DbCommand (241ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+INFO  10:01:02 Executed DbCommand (241ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+INFO  10:01:02 Executed DbCommand (250ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+INFO  10:01:02 Applying migration '20240716043047_init'.
+INFO  10:01:02 Executed DbCommand (243ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Employees] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [DateOfBirth] datetime2 NOT NULL,
+    [Phone] nvarchar(max) NOT NULL,
+    [Image] nvarchar(max) NOT NULL,
+    [Role] nvarchar(max) NULL,
+    CONSTRAINT [PK_Employees] PRIMARY KEY ([Id])
+);
+INFO  10:01:03 Executed DbCommand (242ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [EmployeeId] int NOT NULL,
+    [Password] varbinary(max) NOT NULL,
+    [PasswordHashKey] varbinary(max) NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([EmployeeId]),
+    CONSTRAINT [FK_Users_Employees_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [Employees] ([Id]) ON DELETE CASCADE
+);
+INFO  10:01:03 Executed DbCommand (266ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateOfBirth', N'Image', N'Name', N'Phone', N'Role') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] ON;
+INSERT INTO [Employees] ([Id], [DateOfBirth], [Image], [Name], [Phone], [Role])
+VALUES (101, '2000-02-12T00:00:00.0000000', N'', N'Ramu', N'9876543321', NULL);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateOfBirth', N'Image', N'Name', N'Phone', N'Role') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] OFF;
+INFO  10:01:03 Executed DbCommand (253ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateOfBirth', N'Image', N'Name', N'Phone', N'Role') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] ON;
+INSERT INTO [Employees] ([Id], [DateOfBirth], [Image], [Name], [Phone], [Role])
+VALUES (102, '2002-03-24T00:00:00.0000000', N'', N'Somu', N'9988776655', NULL);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateOfBirth', N'Image', N'Name', N'Phone', N'Role') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] OFF;
+INFO  10:01:03 Executed DbCommand (242ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240716043047_init', N'6.0.29');

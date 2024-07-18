@@ -1,0 +1,11 @@
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\MyFavAPI.exe
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\MyFavAPI.dll
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\MyFavAPI.deps.json
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\MyFavAPI.runtimeconfig.json
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\MyFavAPI.pdb
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GenSpark\Presidio\Participants\Day67\MyFavAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

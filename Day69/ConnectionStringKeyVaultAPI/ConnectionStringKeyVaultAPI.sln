@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionStringKeyVaultAPI", "ConnectionStringKeyVaultAPI.csproj", "{34BAB9C8-8E6E-44CC-803C-496FE67FAACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34BAB9C8-8E6E-44CC-803C-496FE67FAACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BAB9C8-8E6E-44CC-803C-496FE67FAACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BAB9C8-8E6E-44CC-803C-496FE67FAACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BAB9C8-8E6E-44CC-803C-496FE67FAACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59404216-3451-4E27-97DE-21B7A8FB7728}
+	EndGlobalSection
+EndGlobal

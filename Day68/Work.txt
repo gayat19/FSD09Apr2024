@@ -1,0 +1,8 @@
+Database using basha nd CLI - https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/create-and-configure-database-cli?view=azuresql
+
+VM using CLI - https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli
+ 
+
+Storage for JS - https://learn.microsoft.com/en-us/azure/storage/blobs/quickstart-blobs-javascript-browse
+
+Emulator - Use Azurite emulator for local Azure Storage development | Microsoft Learn

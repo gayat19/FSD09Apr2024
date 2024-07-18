@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|d:\\genspark\\presidio\\participants\\day68\\02_azurestoragedemo_end\\azurestoragedemo\\controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|solutionrelative:azurestoragedemo\\controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|d:\\genspark\\presidio\\participants\\day68\\02_azurestoragedemo_end\\azurestoragedemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|solutionrelative:azurestoragedemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|d:\\genspark\\presidio\\participants\\day68\\02_azurestoragedemo_end\\azurestoragedemo\\connected services\\azurestorage1\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|solutionrelative:azurestoragedemo\\connected services\\azurestorage1\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|d:\\genspark\\presidio\\participants\\day68\\02_azurestoragedemo_end\\azurestoragedemo\\middleware\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F696C286-11E4-49A3-991A-7EE0AD6E44A7}|AzureStorageDemo\\AzureStorageDemo.csproj|solutionrelative:azurestoragedemo\\middleware\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectedService.json",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\Connected Services\\AzureStorage1\\ConnectedService.json",
+              "RelativeDocumentMoniker": "AzureStorageDemo\\Connected Services\\AzureStorage1\\ConnectedService.json",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\Connected Services\\AzureStorage1\\ConnectedService.json",
+              "RelativeToolTip": "AzureStorageDemo\\Connected Services\\AzureStorage1\\ConnectedService.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-16T06:42:44.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\Middleware\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "AzureStorageDemo\\Middleware\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\Middleware\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "AzureStorageDemo\\Middleware\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:42:26.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "AzureStorageDemo\\appsettings.json",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\appsettings.json",
+              "RelativeToolTip": "AzureStorageDemo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAADcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-13T12:36:52.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlobController.cs",
+              "DocumentMoniker": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\Controllers\\BlobController.cs",
+              "RelativeDocumentMoniker": "AzureStorageDemo\\Controllers\\BlobController.cs",
+              "ToolTip": "D:\\GenSpark\\Presidio\\Participants\\Day68\\02_AzureStorageDemo_end\\AzureStorageDemo\\Controllers\\BlobController.cs",
+              "RelativeToolTip": "AzureStorageDemo\\Controllers\\BlobController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAA3wDEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T12:36:42.113Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

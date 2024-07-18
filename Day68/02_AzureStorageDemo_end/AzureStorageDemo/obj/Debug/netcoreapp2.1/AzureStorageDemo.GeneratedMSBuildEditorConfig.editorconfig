@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = AzureStorageDemo
+build_property.ProjectDir = D:\GenSpark\Presidio\Participants\Day68\02_AzureStorageDemo_end\AzureStorageDemo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
