@@ -1,0 +1,4 @@
+1) Create ARM Template for creating a SQL server
+
+
+2) Create an ARM Template for creating a Azure vault and add the connection string of SQL in the secret 

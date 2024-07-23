@@ -1,0 +1,13 @@
+CI/CD pipelines
+
+SCM - Source code management
+CI - Cont. Interg
+CD - Cont. Depl
+
+
+CI -> Pull from git-> restore-> build 
+CD -> create an image -> Push image to Container registry in Azure
+
+
+https://learn.microsoft.com/en-us/azure/devops/pipelines/architectures/devops-pipelines-baseline-architecture?view=azure-devops
+g
